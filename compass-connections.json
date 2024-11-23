@@ -1,1 +1,27 @@
-git add compass-connections.json
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "0a40e47b-7c65-4bec-a193-d86bb59e81cd",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1732315723728"
+        }
+      },
+      "favorite": {
+        "name": "BigData",
+        "color": "color6"
+      },
+      "savedConnectionType": "favorite",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}
